@@ -1,10 +1,5 @@
 import React, { useState } from 'react'
-import { BiSolidMessageSquareDetail } from "react-icons/bi";
-import { CgProfile } from "react-icons/cg";
-import { MdOutlineGroupAdd } from "react-icons/md";
-import { AiOutlineSetting } from "react-icons/ai";
-import { BsThreeDotsVertical } from "react-icons/bs";
-import { Link , useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FaLock } from "react-icons/fa";
 import { ContextData} from '../Context/Context.jsx'
 import axios from 'axios';
