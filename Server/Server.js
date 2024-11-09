@@ -6,7 +6,7 @@ import cors from 'cors'
 import { MongoConnect } from './DB/Mongoose.js';
 import { handleRegister, handleLogin , handleLogout } from './Controller/AuthController.js'
 import { getUser, otherUserAdd, getUserFromMember, addMessage, getUserMessage , changeProfilePic } from './Controller/ChatController.js';
-import { checkToken } from './Middleware/checkJwtToken.js'
+import { checkToken } from './middleware/checkJwtToken.js'
 import { registerSchema, loginSchema } from './Validation/registerValidation.js';
 import validation from './middleware/checkValidation.js';
 import { Server } from 'socket.io';
