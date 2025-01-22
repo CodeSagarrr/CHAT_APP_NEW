@@ -51,7 +51,7 @@ const Chat = () => {
 
     // socket connection
     useEffect(() => {
-        socket.current = io('http://localhost:8080/')
+        socket.current = io('https://chat-app-new-ncrs.onrender.com/')
         socket.current.emit('new-user-add', user?._id)
         socket.current.on('get-user', (user) => {
             setUserOnline(user);
